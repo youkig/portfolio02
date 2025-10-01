@@ -38,13 +38,7 @@
 
                             <li><a href="<?= $esurl ?>rental">農機・農機具・耕運機のレンタルサービス始めました</a></li>
                             <li><a href="<?= $esurl ?>product_list">農機・農機具・耕運機レンタル重機　一覧</a></li>
-                            <?php
-                              if (1 == 2):
-                              ?>
-                                  <li><a href="<?= $esurl ?>rental_price">農機・農機具・耕運機レンタル　料金表</a></li>
-                            <?
-                              endif;
-                              ?>
+                            
                             <li><a href="<?= $esurl ?>agency_service">農地耕運代行・農地復活代行サービス</a></li>
                             <li><a href="<?= $esurl ?>consulting"> 農地取得相談・農地選定コンサルティングサービス</a></li>
                             <li><a href="<?= $esurl ?>farming_support">農業指導・家庭菜園野菜作りサポート</a></li>

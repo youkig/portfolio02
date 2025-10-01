@@ -1,11 +1,5 @@
 <div id="rightpane">
-    <?php
-    if (1 == 2):
-    ?>
-        <p><a href="<?= $esurl ?>free_consul"><img src="<?= $imgurl ?>img/common/menu_freeconsul.jpg" width=190 heigh="150" alt="地方自治体様向けソーラー蓄電システム利用による防災用トイレ設置に関する無料相談"></a></p>
-    <?
-    endif;
-    ?>
+    
     <p><a href="<?= $esurl ?>tanbo_buy"><img src="<?= $imgurl ?>img/common/menu_tanbo.jpg" width=190 heigh="150" alt="田んぼ買います！（一宮町東浪見地区）"></a></p>
     <p><a href="<?= $esurl ?>grasspicking"><img src="<?= $imgurl ?>img/common/menu_grasspicking.jpg" width=190 heigh="151" alt="草刈り代行サービス始めました"></a></p>
     <p><a href="<?= $esurl ?>herbicides_service"><img src="<?= $imgurl ?>img/common/menu_herbi.jpg" width=190 heigh="151" alt="除草剤散布サービス"></a></p>

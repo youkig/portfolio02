@@ -21,7 +21,6 @@ session_start();
 <meta name="keywords" content="<?=$n_keyword?>">
 
 <meta name="description" content="<?=$n_description?>">
-
 <title><?=$n_title?></title>
 
 <link rel="stylesheet" href="css/base.css?<?=str_replace(":", "", date("H:i:s")); ?>" type="text/css">

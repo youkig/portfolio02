@@ -47,7 +47,7 @@ $Targetmonth = date('m',strtotime($tmonth));
 $Targetdate = $TargetYear . "-" . $Targetmonth . "-1T00:00:00+09:00";
 $Targetlastdate = $TargetYear . "-" . $Targetmonth . "-" . $lastday . "T00:00:00+09:00";
 
-$api = "AIzaSyDZknYEi8PiMZlf73t7dVSmPXdT5CySIuI";
+$api = "APIkey";
 $holiday_id = "ja.japanese#holiday@group.v.calendar.google.com";
 $url = "https://www.googleapis.com/calendar/v3/calendars/" . urlencode($holiday_id) . "/events?orderBy=startTime&singleEvents=true";
 $url .= "&timeMin=" . urlencode($Targetdate);
@@ -72,9 +72,7 @@ if (curl_errno($ch)) {
 curl_close($ch);
 
 $result = json_decode($response);
-// var_dump($result);
-// $holiday = $result['item'];
-// var_dump($result['summary']);
+
 foreach($result->items as $row){
     // [予定の日付 => 予定のタイトル]
     $results[$row->start->date] = $row->summary;
@@ -87,37 +85,5 @@ foreach($results as $key=>$val){
     array_push($sarray,$val);
 }
 
-// var_dump($sarray);
-// $items = explode("[],", $response);
 
-// if (isset($items[1])) {
-//     $items2 = explode(": [", $items[1]);
-
-//     if (isset($items2[1])) {
-//         $items3 = explode(",", $items2[1]);
-//     }
-// }
-
-
-
-
-// for ($a=0;$a<count($items3);$a++){
-//     if (strpos($items3[$a],"summary")!==false){
-//         $summary = explode(":",$items3[$a]);
-//         $summaryname = str_replace('','"',$summary[1]);
-//         $sarray .= $summaryname . ",";
-//     }
-    
-//     if (strpos($items3[$a],"start")!==false){
-//         $sdate = explode(":",$items3[$a]);
-//         $sdate2 = str_replace('','}',str_replace('','"',$sdate[2]));
-//         $darray .= $sdate2.",";
-//     }
-// }
-
-
-// if (!empty($darray)){
-// $darray = explode(",",$darray);
-// $sarray = explode(",",$sarray);
-// }
 ?>

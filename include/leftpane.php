@@ -11,13 +11,7 @@
         <dd>
             <ul>
                 <li><a href="<?= $esurl ?>yoyakuform01">野菜狩り・野菜収穫体験サービスを始めました！</a></li>
-                <?php
-                if (1 == 2):
-                ?>
-                    <li><a href="<?= $esurl ?>subscription">有機野菜販売のサブスクリプション契約を開始しました！</a></li>
-                <?
-                endif;
-                ?>
+                
                 <li><a href="<?= $esurl ?>rental_newfarmer">新規就農者個人事業向け レンタル農園・貸し農園</a></li>
                 <li><a href="<?= $esurl ?>rental_farm">レンタル農園・貸し農園（6坪）</a></li>
                 <li><a href="<?= $esurl ?>rental_farm_option">レンタル農園 オプション料金表</a></li>
@@ -41,13 +35,7 @@
 
                 <li><a href="<?= $esurl ?>rental">農機・農機具・耕運機のレンタルサービス始めました</a></li>
                 <li><a href="<?= $esurl ?>product_list">農機・農機具・耕運機レンタル重機　一覧</a></li>
-                <?php
-                if (1 == 2):
-                ?>
-                    <li><a href="<?= $esurl ?>rental_price">農機・農機具・耕運機レンタル　料金表</a></li>
-                <?
-                endif;
-                ?>
+               
                 <li><a href="<?= $esurl ?>agency_service">農地耕運代行・農地復活代行サービス</a></li>
                 <li><a href="<?= $esurl ?>consulting">農地取得相談・農地選定コンサルティングサービス</a></li>
                 <li><a href="<?= $esurl ?>farming_support">農業指導・家庭菜園野菜作りサポート</a></li>

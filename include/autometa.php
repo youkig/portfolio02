@@ -3,7 +3,7 @@
 //DB接続
 
 try{
-    $dbh = new PDO('mysql:host=mysql80.salmonyak7.sakura.ne.jp;dbname=salmonyak7_autometa','salmonyak7_autometa','Ja5pc9nTuMg');
+    $dbh = new PDO('mysql:host=hostname;dbname=dbname','userid','password');
 } catch (PDOException $e) {
      echo "接続失敗: ". $e->getMessage(). "\n";
     exit();

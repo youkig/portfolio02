@@ -14,7 +14,6 @@ if(empty($rs)){
 
 
 <head>
-
 <meta name="robots" content="all">
 <meta property="og:title" content="">
 <meta property="og:type" content="website">

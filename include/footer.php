@@ -6,13 +6,6 @@
                 <dd>
                     <ul>
                         <li><a href="<?= $esurl ?>yoyakuform01">野菜狩り・野菜収穫体験サービスを始めました！</a></li>
-                        <?php
-                        if (1 == 2):
-                        ?>
-                            <li><a href="<?= $esurl ?>subscription">有機野菜販売のサブスクリプション契約を開始しました！</a></li>
-                        <?
-                        endif;
-                        ?>
                         <li><a href="<?= $esurl ?>rental_newfarmer">新規就農者個人事業向け レンタル農園・貸し農園</a></li>
                         <li><a href="<?= $esurl ?>rental_farm">レンタル農園・貸し農園（6坪）</a></li>
                         <li><a href="<?= $esurl ?>rental_farm_option">レンタル農園 オプション料金表</a></li>
@@ -93,14 +86,7 @@
                 <dd>
             </dl>
         </div>
-        <?php
-        if (1 == 2):
-        ?>
-            <li><a href="<?= $esurl ?>member_recruit">生産農家会員募集中です！</a></li>
-            <li><a href="<?= $esurl ?>regist01">生産農家会員登録</a></li>
-        <?
-        endif;
-        ?>
+        
         <div class="rightbox">
             <dl>
                 <dt>千葉県一宮町へ移住をお考えの方々へ</dt>

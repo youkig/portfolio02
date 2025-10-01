@@ -60,7 +60,6 @@
 	}
 	?>
 
-
 	<div id="box">
 
 		<div id="header">
