@@ -8,7 +8,7 @@
 <head>
 
 	<meta name="robots" content="all">
-	<meta property="og:title" content="太陽と野菜の直売所【東浪見岡本農園】">
+	<meta property="og:title" content="">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="index">
 	<meta property="og:locale" content="jp_JP">
