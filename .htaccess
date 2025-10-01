@@ -9,11 +9,6 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
-
-  # .asp から .php へのリダイレクト
-  RewriteRule ^(.+)\.asp$ $1.php [L,R=301]
-  
- 
 </IfModule>
 
 
