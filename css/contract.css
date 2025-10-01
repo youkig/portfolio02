@@ -1,0 +1,87 @@
+@charset "shift_jis";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	font-weight:normal;
+	text-decoration:none;
+	font-size:100%;
+	font-style:normal;
+	line-height:1.65;
+}
+
+
+p{
+margin:0 0 20px 0;
+}
+
+p{
+	letter-spacing:0.01em;
+}
+
+body{
+	
+	/**font-family: "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "Hiragino Kaku Gothic Pro", "ƒƒCƒŠƒI", Meiryo, Osaka, "‚l‚r ‚oƒSƒVƒbƒN", "MS PGothic", sans-serif;**/
+    font-family: "ŸàƒSƒVƒbƒN‘Ì", "Yu Gothic", YuGothic, "ƒqƒ‰ƒMƒmŠpƒS Pro W3", "Hiragino Kaku Gothic Pro", "ƒƒCƒŠƒI", Meiryo, "‚l‚r ‚oƒSƒVƒbƒN", sans-serif;
+	background:#FFF;
+}
+
+#box{
+	
+	text-align:center;
+	margin:20px 0 0 0;
+	z-index: 1;
+	
+}
+
+#main{
+	width:800px;
+	margin:0 auto;
+    text-align: left;
+    padding:15px;
+}
+
+h1{
+    text-align: center;
+    font-size:160%;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+.div{
+    margin-bottom: 30px;
+}
+
+h2{
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+dl dt{
+    font-weight: bold;
+}
+
+dl dd{
+    margin-left:1.5em;
+    margin-bottom: 20px;
+}
+
+p.righting{
+    text-align:right;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+p.kikan{
+    font-weight: bold;
+    font-size: 120%;
+    margin-bottom: 40px;
+}
+
